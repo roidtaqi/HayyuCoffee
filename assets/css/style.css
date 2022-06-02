@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 @font-face {
   font-family: "Transcity";
-  src: url("../fonts/Transcity.ttf") format("Transcity");
+  src: url("../fonts/Transcity.ttf") format("truetype");
 }
 
 body {
@@ -884,7 +884,7 @@ section {
   color: rgba(255, 255, 255, 0.5);
 }
 
-#menu .btn-menu, #menu .btn-book {
+.menu .btn-menu, #menu .btn-book {
   font-weight: 600;
   font-size: 13px;
   letter-spacing: 0.5px;
@@ -899,10 +899,12 @@ section {
   margin-top: 50%;
 }
 
-#menu .btn-menu:hover, #menu .btn-book:hover {
+.menu .btn-menu:hover, #menu .btn-book:hover {
   background: #ffa200;
   color: #fff;
 }
+
+
 /*--------------------------------------------------------------
 # Specials
 --------------------------------------------------------------*/
@@ -1541,4 +1543,9 @@ section {
   text-align: center;
   font-size: 13px;
   color: #fff;
+}
+
+#exampleModalLabel .modal-title h5 {
+  color: #0c0b09;
+
 }
