@@ -599,7 +599,7 @@ section {
 }
 
 .section-title {
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 .section-title h2 {
   font-size: 14px;
@@ -743,6 +743,11 @@ section {
   font-size: 26px;
   color: #ffa200;
 }
+.about .content h4 {
+  font-weight: 200;
+  font-size: 20px;
+  color: #fff;
+}
 .about .content ul {
   list-style: none;
   padding: 0;
@@ -757,6 +762,9 @@ section {
 }
 .about .content p:last-child {
   margin-bottom: 0;
+}
+.about .content p {
+  margin-top: 0;
 }
 @media (min-width: 1024px) {
   .about {
@@ -1055,7 +1063,7 @@ section {
 .book-a-table .php-email-form .error-message {
   display: none;
   color: #fff;
-  background: #ed3c0d;
+  background: #18d26e;
   text-align: left;
   padding: 15px;
   font-weight: 600;

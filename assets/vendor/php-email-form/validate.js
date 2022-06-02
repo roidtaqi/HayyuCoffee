@@ -68,7 +68,7 @@
         thisForm.querySelector('.sent-message').classList.add('d-block');
         thisForm.reset(); 
       } else {
-        throw new String("Berhasil Mengirimkan"); 
+        throw new String("Berhasil Mengirimkan!"); 
       }
     })
     .catch((error) => {
