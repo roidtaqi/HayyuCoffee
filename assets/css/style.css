@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 @font-face {
   font-family: "Transcity";
-  src: url("../fonts/Transcity.ttf") format("truetype");
+  src: url("../fonts/Transcity.ttf") format('truetype');
 }
 
 body {
