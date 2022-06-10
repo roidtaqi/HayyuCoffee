@@ -1293,6 +1293,7 @@ section {
 --------------------------------------------------------------*/
 .contact .info {
   width: 100%;
+  margin-top: 5px;
 }
 .contact .info i {
   font-size: 20px;
@@ -1321,7 +1322,7 @@ section {
   color: #bab3a6;
 }
 .contact .info .open-hours, .contact .info .email, .contact .info .phone {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 .contact .php-email-form {
   width: 100%;
@@ -1557,4 +1558,26 @@ section {
 #exampleModalLabel .modal-title h5 {
   color: #0c0b09;
 
+}
+
+#btn-online-gofood {
+  position: fixed;
+  background-color: #d3af71;
+  padding: 7.5px;
+  border-radius: 100%;
+  transition: all 0.4s;
+  border: 2px solid #ffa200;
+  margin-top: 15px;
+  left: 20px;
+}
+
+#btn-online-grabfood {
+  position: fixed;
+  background-color: #d3af71;
+  padding: 7.5px;
+  border-radius: 100%;
+  transition: all 0.4s;
+  border: 2px solid #ffa200;
+  margin-top: 15px;
+  margin-left: 40px;
 }
